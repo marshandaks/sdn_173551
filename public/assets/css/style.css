@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-admin{
+    background-color: white;
+    padding-top: 50px;
+    margin-bottom:100px;
+}
+
+/* public/css/style.css */
+.form-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+.form-control, .form-control:focus {
+    border-color: #800000; /* Merah Maron */
+    box-shadow: none;
+}
+
+.btn-custom {
+    background-color: #800000; /* Merah Maron */
+    border-color: #800000; /* Merah Maron */
+}
+
+
+.member {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+}
+
+.member img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.member .member-content {
+  padding: 0 20px 30px 20px;
+}
+
+.member h4 {
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 2px;
+  font-size: 20px;
+  color: black;
+}
+
+.member span {
+  font-style: italic;
+  display: block;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.member p {
+  padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #6c757d;
+}
+
+.member .social {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.member .social a {
+  color: #a2a2a2;
+  transition: 0.3s;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bbbbbb;
+}
+
+.member .social a:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+
+.btn-danger{
+    background-color: #bd0001;
+    border-radius: 15px;
+    border-color: #bd0001;
+    padding: 10px 40px;
+    color: white;
+}
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: #bd0001;
+    padding: 10px 40px;
+    color: #bd0001;
+}
+
+/* Navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.scroll-nav-active{
+    background-color: white;
+    /* border-bottom: 1px solid  #bd0001; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.8);
+}
+
+.text-nav-active{
+    color: black;
+}
+
+
+/* Hero */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.btn-danger{
+    background-color: #bd0001;
+    border-radius: 15px;
+    border-color: #bd0001;
+    padding: 10px 40px;
+    color: white;
+}
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 15px;
+    border-color: #bd0001;
+    padding: 10px 40px;
+    color: #bd0001;
+}
+
+/* Navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.scroll-nav-active{
+    background-color: white;
+    /* border-bottom: 1px solid  #bd0001; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.8);
+}
+
+.text-nav-active{
+    color: black;
+}
+
+
+
+/* Hero */
+
+/* Menambahkan CSS untuk background dan efek gelap */
+#hero {
+    position: relative; /* Memastikan section ini relative untuk positioning */
+    width: 100%; /* lebar penuh */
+    height: 100vh; /* tinggi layar penuh */
+    background-image: url('path/to/your-image.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Menutupi seluruh section */
+    background-position: center; /* Memastikan gambar di tengah */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Membuat overlay gelap */
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    z-index: 1;
+}
+
+/* Styling untuk teks agar tidak terpengaruh oleh overlay */
+.container {
+    position: relative; /* Agar teks berada di atas overlay */
+    z-index: 2;
+}
+
+.hero_title, .hero_text, h4 {
+    color: white; /* Warna teks putih untuk kontras yang lebih baik */
+}
+
+
+#hero{
+    background-image: url("./../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Responsive layar kecil 450 */
+@media screen and (min-width: 450px){
+    .hero_text{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+/* Responsive layar kecil 450 */
+@media screen and (min-width: 550px){
+    .hero_text{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+/* Responsive layar kecil 450 */
+@media screen and (min-width: 800px){
+    .hero_text{
+        font-size: 65px;
+        font-weight: 600;
+    }
+}
+
+.hero_title{
+    padding-top: 250px;
+}
+
+.hero_text{
+    font-size: 65px;
+    font-weight: 600;
+}-->
+
+/* Join */
+.stripe{
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+/* video */
+#video{
+    background-image: url("./../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* photo */
+/* Paralax Background */
+.section-foto{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax{
+    background-image: url("../images/bg.jpg") ;
+}
+
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+}
+#hero{
+    background-image: url("./../images/il-photo-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 600px; */
+}
+
+/* Responsive layar kecil 450 */
+@media screen and (min-width: 450px){
+    .hero_text{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+/* Responsive layar kecil 450 */
+@media screen and (min-width: 550px){
+    .hero_text{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+/* Responsive layar kecil 450 */
+@media screen and (min-width: 800px){
+    .hero_text{
+        font-size: 65px;
+        font-weight: 600;
+    }
+}
+
+.hero_title{
+    padding-top: 250px;
+}
+
+.hero_text{
+    font-size: 65px;
+    font-weight: 600;
+}
+
+
+/* Join */
+.stripe{
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+/* video */
+#video{
+    background-image: url("./../images/il-bg-video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* photo */
+/* Paralax Background */
+.section-foto{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax{
+    background-image: url("../images/il-photo-02.png") ;
+}
+
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+.portfolio-flters {
+  padding: 0 0 20px 0;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+  line-height: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-flters li:hover,
+.portfolio-flters li.filter-active {
+  color: var(--color-primary);
+}
+
+.portfolio-flters li:first-child {
+  margin-left: 0;
+}
+
+.portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .portfolio-flters li {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+}
+
+.portfolio-wrap {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.portfolio-wrap img {
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-wrap .portfolio-info {
+
+  padding: 25px 20px;
+  background-color: #fff;
+  position: relative;
+  border-top: 1px solid #f3f3f3;
+  z-index: 2;
+}
+
+.portfolio-wrap .portfolio-info h4 {
+
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.portfolio-wrap .portfolio-info h4 a {
+  color: var(--color-default);
+  transition: 0.3s;
+}
+
+.portfolio-wrap .portfolio-info h4 a:hover {
+  color: var(--color-primary);
+}
+
+.portfolio-wrap .portfolio-info p {
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-right: 50px;
+}
+
+.portfolio-wrap:hover img {
+  transform: scale(1.1);
+}
